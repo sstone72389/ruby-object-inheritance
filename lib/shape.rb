@@ -13,4 +13,3 @@ class Shape
   def calculate_area
     (@num_sides * @side_length**2) / (4 * Math.tan(Math::PI / @num_sides))
   end
-end
